@@ -1,0 +1,95 @@
+/* 
+    Project: Hero Section Template CSS
+    Author: Charles Harris
+    Date: 06/08/2021
+    Purpose: Create a hero section template for QC Manufacturing landing page
+*/
+
+/* Reset all the margins/padding on the page */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    
+}
+
+/* The container that contains all of the content for hero section */
+.content-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 750px;
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.808) url("pexels-emma-bauso-2253879.jpg");
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* CTA Headline */
+.cta-headline{
+    font-size: 3.052rem;
+    color: 	#f8f8ff;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+}
+
+/* Subheadline */
+.cta-subheadline{
+    margin: .5% 0%;
+    color: 	#f8f8ff;
+    font-size: 1.953rem;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 120%;
+}
+
+/* Call-to-action container - holds CTA headline, subheadline, and button */
+.cta{
+    padding: 6.5%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* CTA button */
+.cta-button {
+    background-color: #117BC1;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+/* CTA Form */
+.cta-form{
+    padding: 5%;
+    margin: 2.5%;
+    width: 25%;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Form Elements*/
+input[type=text] {
+    padding: 5%;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+
